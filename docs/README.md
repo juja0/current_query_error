@@ -3,7 +3,8 @@
 Steps to reproduce the issue.
 
 1. Execute "make debug"
-2. run any query. It should fail with "INTERNAL Error: Assertion triggered in file "./duckdb/src/main/client_context.cpp" on line 286: active_query"
+2. Launch duckdb: ./build/debug/duckdb 
+3. run any query. It should fail with "INTERNAL Error: Assertion triggered in file "./duckdb/src/main/client_context.cpp" on line 286: active_query"
 
 Extension code is in: src/quack_extension.cpp (look for SimpleLoggingExtension)
 
