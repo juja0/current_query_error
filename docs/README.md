@@ -9,3 +9,6 @@ Extension code is in: src/quack_extension.cpp (look for SimpleLoggingExtension)
 
 Fails on both v1.0.0 and on latest main
 
+Note: This works without issue when executed via tests, so it could be related to the absence of an active transaction when query is prepared when executed in cli.
+
+To verify: Execute the clion run configuration named "Run tests".  
